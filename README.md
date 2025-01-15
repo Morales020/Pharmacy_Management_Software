@@ -90,16 +90,16 @@ The project is organized as follows:
 
 ### Key Functionalities
 
-- **Login Page**
-  ![Login Page](Screenshot\Login.png)
+- **Login Page**  
+  ![Login Page](Screenshot/Login.png)
 
-- **Dashboard**
+- **Dashboard**  
   ![Dashboard](Screenshot/Home.png)
 
-- **Inventory Management**
+- **Inventory Management**  
   ![Inventory Management](Screenshot/Inventory_Mangement.png)
 
-- **Generate Bill**
+- **Generate Bill**  
   ![Generate Bill](Screenshot/Bill.png)
 
 ---
