@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PharmacyDataSet2" targetNamespace="http://tempuri.org/PharmacyDataSet2.xsd" xmlns:mstns="http://tempuri.org/PharmacyDataSet2.xsd" xmlns="http://tempuri.org/PharmacyDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PharmacyConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PharmacyConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Medical_Store_Management_SoftWare.Properties.Settings.GlobalReference.Default.PharmacyConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="StorageInfoTableAdapter" GeneratorDataComponentClassName="StorageInfoTableAdapter" Name="StorageInfo" UserDataComponentName="StorageInfoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PharmacyConnectionString (Settings)" DbObjectName="Pharmacy.dbo.StorageInfo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Item FROM dbo.StorageInfo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Item" DataSetColumn="Item" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PharmacyDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="PharmacyDataSet2" msprop:Generator_DataSetName="PharmacyDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StorageInfo" msprop:Generator_RowEvHandlerName="StorageInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="StorageInfoRowDeleted" msprop:Generator_RowDeletingName="StorageInfoRowDeleting" msprop:Generator_RowEvArgName="StorageInfoRowChangeEvent" msprop:Generator_TablePropName="StorageInfo" msprop:Generator_RowChangedName="StorageInfoRowChanged" msprop:Generator_RowChangingName="StorageInfoRowChanging" msprop:Generator_TableClassName="StorageInfoDataTable" msprop:Generator_RowClassName="StorageInfoRow" msprop:Generator_TableVarName="tableStorageInfo" msprop:Generator_UserTableName="StorageInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item" msprop:Generator_ColumnPropNameInRow="Item" msprop:Generator_ColumnPropNameInTable="ItemColumn" msprop:Generator_ColumnVarNameInTable="columnItem" msprop:Generator_UserColumnName="Item" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

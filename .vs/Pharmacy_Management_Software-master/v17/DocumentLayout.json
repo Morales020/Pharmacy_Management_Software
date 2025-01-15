@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Pharmacy_Management_Software-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Pharmacy_Management_Software-master\\Medical_Store_Management_SoftWare.suo||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Medical_Store_Management_SoftWare.suo||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Medical_Store_Management_SoftWare.suo",
+              "DocumentMoniker": "D:\\Projects\\Pharmacy_Management_Software-master\\Medical_Store_Management_SoftWare.suo",
+              "RelativeDocumentMoniker": "Medical_Store_Management_SoftWare.suo",
+              "ToolTip": "D:\\Projects\\Pharmacy_Management_Software-master\\Medical_Store_Management_SoftWare.suo",
+              "RelativeToolTip": "Medical_Store_Management_SoftWare.suo",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE0SURBVDhPY2RAAt\u002B\u002BffsPZRICC7i4uBIZ/v//j2GAj48PlIcduLi4MBQUFICYYEOwGrBu7XqoCCoICg4E08iGMIFFSAR79uxhmDBhAoiZgNcAkI0wjA5AhmAAkBecnJz\u002Bf3j/kSAGqQOph7sAyDGAMjEAzAXYXAI2AKp5P4gNAywszAxrm3YwdPnOZKhPaQPzsQUuzAX7l1dvFgBihi1btoAVr6zbynB6w0WGd08/MCyv3sTAxMyE1QUsUFoApBgZgPihjV4Mq\u002Bu3QUUY8LoADDrOlYM1wjQb\u002B\u002BpCZSAAZxgQC7C5AOYFMKgw6mQwDdAHs5Gdjg/ADPgA1CgAYkS2\u002BoIFQADdEGxeAOcFpGgEGwIDoFi5e/ohg3uWHdBlelBRHABkCHJigvLfQ3EDEKMYDgEMDADAsbEC\u002B6Vc4wAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-05T12:30:23.846Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
